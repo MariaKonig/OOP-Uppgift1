@@ -1,6 +1,6 @@
-/*  Klassen växter är en abstrakt klass, vilket betyder att den inte kan instansieras.
+/*  Klassen växt är en abstrakt klass, vilket betyder att den inte kan instansieras.
     Klassen implementerar ett interface men eftersom klassen är abstrakt behöver den inte
-    skapa upp metoden från interfacet. Det kommer däremot alla subklasser till växter att behöva göra
+    skapa upp metoden från interfacet. Det kommer däremot alla subklasser till växt att behöva göra
     då de inte är abstrakta. */
 
 public abstract class Växt implements IVattningsformel {
