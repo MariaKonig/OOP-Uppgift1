@@ -6,7 +6,6 @@ class PalmTest implements ISubklassTest {
 
     Palm p = new Palm("pelle",3);
 
-
     @Test
     public void testMängdVätskaPerDag() {
 
