@@ -40,7 +40,7 @@ public class Dialog {
         for (Växt v : lista) {
 
             if (v.getNamn().equalsIgnoreCase(namn)) {
-                //Polymorfism->Samma referens och metodanrop, kör olika metoder
+                //Polymorfism->Samma referens och metodanrop(mängdVätskaPerDag), kör olika metoder i olika klasser
                 String utskrift = String.format("%.2f liter ", v.mängdVätskaPerDag()) + v.getNäringsvätska();
 
                 JOptionPane.showMessageDialog(
