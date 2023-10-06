@@ -2,14 +2,14 @@ import javax.swing.*;
 import java.util.ArrayList;
 
 public class Dialog {
+    private final ImageIcon icon = new ImageIcon("./sprint1/Uppgift_1/src/icons8-plant-64.png");
+    ArrayList<Växt> lista = new ArrayList<>();
     public Dialog() {
         lista.add(new Kaktus("igge"));
         lista.add(new Palm("Laura", 5));
         lista.add(new KöttätandeVäxt("Meatloaf", 0.7));
         lista.add(new Palm("Olof", 1));
     }
-    ArrayList<Växt> lista = new ArrayList<>();
-    private final ImageIcon icon = new ImageIcon("./sprint1/Uppgift_1/src/icons8-plant-64.png");
 
     public void run(){
 
